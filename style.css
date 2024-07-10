@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+  background: black;
+}
+
+.container {
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #000000;
+    border: 2px solid #d7adf3;
+    box-shadow: 0 0 20px rgba(221, 184, 243, 0.1);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:  cursive;
+    font-weight: bold;
+  color:rgb(138, 18, 207) ;  
+    
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#add-task-btn {
+    margin-left: 10px;
+    background: rgb(138, 18, 207);
+  
+}
+p{
+    text-align: center;
+    color: white;
+}
+a{
+    color:rgb(185, 155, 202) ;
+}
+
+a:hover{
+text-decoration: none;
+color: rgb(138, 18, 207);
+cursor: pointer;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+.list-group-item{
+    background-color: #e1b6ed;
+ 
+}
+.task-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    word-break: break-word;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.task-item .task-text {
+    font-size: 16px;
+}
+
+.task-item .task-actions {
+    float: right;
+}
+
+.task-item .task-actions button {
+    margin-left: 10px;
+}
